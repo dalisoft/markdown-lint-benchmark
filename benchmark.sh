@@ -16,5 +16,5 @@ export -f prepare
 # shellcheck disable=SC2034
 for item in ${md_files}; do
   file="data/$item.md"
-  hyperfine --runs 3 "markdownlint-cli2 $file" "prettier -c $file" "dprint check $file" --export-markdown "results/$item.md" --prepare prepare
+  hyperfine --runs 3 "markdownlint-cli2 $file" "prettier -c $file" "./node_modules/dprint/bin.js check $file" "./node_modules/dprint-rs-npm/dprint check $file" --export-markdown "results/$item.md" --prepare prepare
 done
