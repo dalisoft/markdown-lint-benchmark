@@ -16,7 +16,7 @@ Run `./benchmark.sh`
 
 ## Results
 
-See [results folder](./results) or see below for last benchmark
+See [results folder](./results/) or see below for last benchmark
 
 ```md
 | Command                            |    Mean [ms] | Min [ms] | Max [ms] |    Relative |
