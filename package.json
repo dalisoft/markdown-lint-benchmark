@@ -1,0 +1,17 @@
+{
+  "name": "markdown-lint-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "benchmark.sh",
+  "scripts": {
+    "bench": "./benchmark.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "dprint": "^0.45.0",
+    "markdownlint-cli2": "^0.13.0",
+    "prettier": "^3.2.5"
+  }
+}
