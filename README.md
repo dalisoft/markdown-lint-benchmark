@@ -1,4 +1,4 @@
-# markdown-lint-benchmark
+# markdown-format-benchmark
 
 ## Requires
 

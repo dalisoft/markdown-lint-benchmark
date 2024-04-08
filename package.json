@@ -1,5 +1,5 @@
 {
-  "name": "markdown-lint-benchmark",
+  "name": "markdown-format-benchmark",
   "version": "1.0.0",
   "description": "",
   "main": "benchmark.sh",
@@ -11,8 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "dprint": "^0.45.1",
-    "dprint-rs-npm": "^0.45.1",
-    "markdownlint-cli2": "^0.13.0",
+    "dprint-rs-npm": "^0.45.1d",
     "prettier": "^3.2.5"
   },
   "trustedDependencies": [
